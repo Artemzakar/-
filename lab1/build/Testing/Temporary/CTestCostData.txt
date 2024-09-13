@@ -1,0 +1,11 @@
+ExtractNumbersTest.HandlesMixedInput 2 0.0123756
+ExtractNumbersTest.HandlesNoNumbers 2 0.0120988
+ExtractNumbersTest.HandlesOnlyNumbers 2 0.0113517
+ExtractNumbersTest.HandlesSpacesInInput 2 0.0108808
+ExtractNumbersTest.HandlesSpecialCharacters 2 0.0124721
+ExtractNumbersTest.HandlesEmptyInput 2 0.0115662
+ExtractNumbersTest.HandlesLeadingNumbers 2 0.0110284
+ExtractNumbersTest.HandlesTrailingNumbers 2 0.0110982
+ExtractNumbersTest.HandlesSeparatedNumbers 2 0.0110613
+ExtractNumbersTest.HandlesLongStringWithNumbers 2 0.0111468
+---

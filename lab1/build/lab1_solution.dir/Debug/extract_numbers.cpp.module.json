@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lab1_solution.dir\\Debug\\extract_numbers.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab1\\build\\Debug\\lab1_solution.pdb",
+                "lab1_solution.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}
