@@ -1,10 +1,10 @@
-Start testing: Oct 04 23:39 RTZ 2 (çèìà)
+Start testing: Oct 04 23:43 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/10 Testing: ExtractNumbersTest.HandlesMixedInput
 1/10 Test: ExtractNumbersTest.HandlesMixedInput
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesMixedInput" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesMixedInput" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesMixedInput" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesMixedInput
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesMixedInput" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesMixedInput" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesMixedInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/10 Test: ExtractNumbersTest.HandlesNoNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesNoNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesNoNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesNoNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesNoNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesNoNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesNoNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesNoNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/10 Test: ExtractNumbersTest.HandlesOnlyNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesOnlyNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesOnlyNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesOnlyNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -77,7 +77,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesOnlyNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesOnlyNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesOnlyNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesOnlyNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/10 Test: ExtractNumbersTest.HandlesSpacesInInput
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesSpacesInInput" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesSpacesInInput" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSpacesInInput" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesSpacesInInput
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesSpacesInInput" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSpacesInInput" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesSpacesInInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/10 Test: ExtractNumbersTest.HandlesSpecialCharacters
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesSpecialCharacters" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesSpecialCharacters" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSpecialCharacters" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesSpecialCharacters
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesSpecialCharacters" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSpecialCharacters" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesSpecialCharacters" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/10 Test: ExtractNumbersTest.HandlesEmptyInput
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesEmptyInput" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesEmptyInput" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesEmptyInput" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesEmptyInput
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesEmptyInput" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesEmptyInput" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesEmptyInput" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/10 Test: ExtractNumbersTest.HandlesLeadingNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesLeadingNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesLeadingNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesLeadingNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesLeadingNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesLeadingNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesLeadingNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesLeadingNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/10 Test: ExtractNumbersTest.HandlesTrailingNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesTrailingNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesTrailingNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesTrailingNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -212,7 +212,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesTrailingNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesTrailingNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesTrailingNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesTrailingNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/10 Test: ExtractNumbersTest.HandlesSeparatedNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesSeparatedNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesSeparatedNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSeparatedNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -239,7 +239,7 @@ Note: Google Test filter = ExtractNumbersTest.HandlesSeparatedNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesSeparatedNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesSeparatedNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesSeparatedNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/10 Test: ExtractNumbersTest.HandlesLongStringWithNumbers
 Command: "C:/Users/artem/Downloads/OOP/lab1/build/Debug/lab1_tests.exe" "--gtest_filter=ExtractNumbersTest.HandlesLongStringWithNumbers" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab1/build
-"ExtractNumbersTest.HandlesLongStringWithNumbers" start time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesLongStringWithNumbers" start time: Oct 04 23:43 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\artem\Downloads\OOP\lab1\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -266,8 +266,8 @@ Note: Google Test filter = ExtractNumbersTest.HandlesLongStringWithNumbers
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ExtractNumbersTest.HandlesLongStringWithNumbers" end time: Oct 04 23:39 RTZ 2 (çèìà)
+"ExtractNumbersTest.HandlesLongStringWithNumbers" end time: Oct 04 23:43 RTZ 2 (çèìà)
 "ExtractNumbersTest.HandlesLongStringWithNumbers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 04 23:39 RTZ 2 (çèìà)
+End testing: Oct 04 23:43 RTZ 2 (çèìà)

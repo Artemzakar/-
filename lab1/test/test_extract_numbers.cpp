@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "extract_numbers.h"
+#include "../include/extract_numbers.h"
 
 TEST(ExtractNumbersTest, HandlesMixedInput) {
     std::string input = "abc123def456";
