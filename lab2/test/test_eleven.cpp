@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "Eleven.h"
+#include "../include/Eleven.h"
 
 // Тест на конструктор по умолчанию
 TEST(ElevenTest, DefaultConstructor) {

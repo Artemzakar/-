@@ -1,10 +1,10 @@
-Start testing: Oct 04 22:09 RTZ 2 (çèìà)
+Start testing: Oct 04 23:28 RTZ 2 (çèìà)
 ----------------------------------------------------------
 1/8 Testing: ElevenTest.DefaultConstructor
 1/8 Test: ElevenTest.DefaultConstructor
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.DefaultConstructor" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.DefaultConstructor" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.DefaultConstructor
@@ -19,10 +19,10 @@ Note: Google Test filter = ElevenTest.DefaultConstructor
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.11 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.DefaultConstructor" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.DefaultConstructor" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.DefaultConstructor" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -30,7 +30,7 @@ Test Passed.
 2/8 Test: ElevenTest.ConstructorFromString
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.ConstructorFromString" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.ConstructorFromString" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ConstructorFromString" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.ConstructorFromString
@@ -45,10 +45,10 @@ Note: Google Test filter = ElevenTest.ConstructorFromString
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.ConstructorFromString" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ConstructorFromString" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.ConstructorFromString" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -56,7 +56,7 @@ Test Passed.
 3/8 Test: ElevenTest.Addition
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.Addition" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.Addition" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Addition" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.Addition
@@ -71,10 +71,10 @@ Note: Google Test filter = ElevenTest.Addition
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.Addition" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Addition" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.Addition" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -82,7 +82,7 @@ Test Passed.
 4/8 Test: ElevenTest.Subtraction
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.Subtraction" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.Subtraction" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Subtraction" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.Subtraction
@@ -97,10 +97,10 @@ Note: Google Test filter = ElevenTest.Subtraction
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.Subtraction" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Subtraction" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.Subtraction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -108,7 +108,7 @@ Test Passed.
 5/8 Test: ElevenTest.AssignmentOperator
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.AssignmentOperator" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.AssignmentOperator" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.AssignmentOperator" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.AssignmentOperator
@@ -123,10 +123,10 @@ Note: Google Test filter = ElevenTest.AssignmentOperator
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.AssignmentOperator" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.AssignmentOperator" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.AssignmentOperator" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,7 +134,7 @@ Test Passed.
 6/8 Test: ElevenTest.MoveAssignmentOperator
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.MoveAssignmentOperator" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.MoveAssignmentOperator" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.MoveAssignmentOperator" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.MoveAssignmentOperator
@@ -149,10 +149,10 @@ Note: Google Test filter = ElevenTest.MoveAssignmentOperator
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.MoveAssignmentOperator" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.MoveAssignmentOperator" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.MoveAssignmentOperator" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -160,7 +160,7 @@ Test Passed.
 7/8 Test: ElevenTest.ComparisonOperators
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.ComparisonOperators" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.ComparisonOperators" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ComparisonOperators" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.ComparisonOperators
@@ -175,10 +175,10 @@ Note: Google Test filter = ElevenTest.ComparisonOperators
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.ComparisonOperators" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ComparisonOperators" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.ComparisonOperators" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -186,7 +186,7 @@ Test Passed.
 8/8 Test: ElevenTest.SubtractionUnderflow
 Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.SubtractionUnderflow" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/artem/Downloads/OOP/lab2/build
-"ElevenTest.SubtractionUnderflow" start time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.SubtractionUnderflow" start time: Oct 04 23:28 RTZ 2 (çèìà)
 Output:
 ----------------------------------------------------------
 Note: Google Test filter = ElevenTest.SubtractionUnderflow
@@ -201,11 +201,11 @@ Note: Google Test filter = ElevenTest.SubtractionUnderflow
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"ElevenTest.SubtractionUnderflow" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.SubtractionUnderflow" end time: Oct 04 23:28 RTZ 2 (çèìà)
 "ElevenTest.SubtractionUnderflow" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 04 22:09 RTZ 2 (çèìà)
+End testing: Oct 04 23:28 RTZ 2 (çèìà)

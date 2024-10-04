@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\artem\\downloads\\oop\\lab2\\test_eleven.cpp",
+        "Source": "c:\\users\\artem\\downloads\\oop\\lab2\\test\\test_eleven.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\users\\artem\\downloads\\oop\\lab2\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest.h",
@@ -168,7 +168,7 @@
             "c:\\users\\artem\\downloads\\oop\\lab2\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest-typed-test.h",
             "c:\\users\\artem\\downloads\\oop\\lab2\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_pred_impl.h",
             "c:\\users\\artem\\downloads\\oop\\lab2\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_prod.h",
-            "c:\\users\\artem\\downloads\\oop\\lab2\\eleven.h"
+            "c:\\users\\artem\\downloads\\oop\\lab2\\include\\eleven.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

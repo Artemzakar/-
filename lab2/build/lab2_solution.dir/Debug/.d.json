@@ -1,10 +1,10 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\artem\\downloads\\oop\\lab2\\eleven.cpp",
+        "Source": "c:\\users\\artem\\downloads\\oop\\lab2\\src\\eleven.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\artem\\downloads\\oop\\lab2\\eleven.h",
+            "c:\\users\\artem\\downloads\\oop\\lab2\\include\\eleven.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vcruntime.h",

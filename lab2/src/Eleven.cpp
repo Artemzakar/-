@@ -1,4 +1,4 @@
-#include "Eleven.h"
+#include "../include/Eleven.h"
 
 // Вспомогательная функция для удаления ведущих нулей
 void Eleven::trimLeadingZeros() {
