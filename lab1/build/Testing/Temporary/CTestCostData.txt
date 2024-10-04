@@ -1,11 +1,11 @@
-ExtractNumbersTest.HandlesMixedInput 2 0.0123756
-ExtractNumbersTest.HandlesNoNumbers 2 0.0120988
-ExtractNumbersTest.HandlesOnlyNumbers 2 0.0113517
-ExtractNumbersTest.HandlesSpacesInInput 2 0.0108808
-ExtractNumbersTest.HandlesSpecialCharacters 2 0.0124721
-ExtractNumbersTest.HandlesEmptyInput 2 0.0115662
-ExtractNumbersTest.HandlesLeadingNumbers 2 0.0110284
-ExtractNumbersTest.HandlesTrailingNumbers 2 0.0110982
-ExtractNumbersTest.HandlesSeparatedNumbers 2 0.0110613
-ExtractNumbersTest.HandlesLongStringWithNumbers 2 0.0111468
+ExtractNumbersTest.HandlesMixedInput 1 0.0115532
+ExtractNumbersTest.HandlesNoNumbers 1 0.0101778
+ExtractNumbersTest.HandlesOnlyNumbers 1 0.009737
+ExtractNumbersTest.HandlesSpacesInInput 1 0.0111255
+ExtractNumbersTest.HandlesSpecialCharacters 1 0.0104733
+ExtractNumbersTest.HandlesEmptyInput 1 0.0101056
+ExtractNumbersTest.HandlesLeadingNumbers 1 0.0101898
+ExtractNumbersTest.HandlesTrailingNumbers 1 0.0095542
+ExtractNumbersTest.HandlesSeparatedNumbers 1 0.0098605
+ExtractNumbersTest.HandlesLongStringWithNumbers 1 0.0101696
 ---

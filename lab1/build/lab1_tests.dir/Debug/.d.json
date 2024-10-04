@@ -1,7 +1,7 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\artem\\downloads\\oop\\lab1\\test_extract_numbers.cpp",
+        "Source": "c:\\users\\artem\\downloads\\oop\\lab1\\test\\test_extract_numbers.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\users\\artem\\downloads\\oop\\lab1\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest.h",
@@ -174,7 +174,7 @@
             "c:\\users\\artem\\downloads\\oop\\lab1\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest-typed-test.h",
             "c:\\users\\artem\\downloads\\oop\\lab1\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_pred_impl.h",
             "c:\\users\\artem\\downloads\\oop\\lab1\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_prod.h",
-            "c:\\users\\artem\\downloads\\oop\\lab1\\extract_numbers.h"
+            "c:\\users\\artem\\downloads\\oop\\lab1\\include\\extract_numbers.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
