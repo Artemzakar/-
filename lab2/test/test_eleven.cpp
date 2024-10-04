@@ -64,8 +64,3 @@ TEST(ElevenTest, SubtractionUnderflow) {
     Eleven num2("A10");
     EXPECT_THROW(num1 - num2, std::underflow_error);
 }
-
-int main(int argc, char **argv) {
-    ::testing::InitGoogleTest(&argc, argv);
-    return RUN_ALL_TESTS();
-}
