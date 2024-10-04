@@ -1,0 +1,9 @@
+ElevenTest.DefaultConstructor 1 0.108736
+ElevenTest.ConstructorFromString 1 0.0240928
+ElevenTest.Addition 1 0.0232641
+ElevenTest.Subtraction 1 0.0229721
+ElevenTest.AssignmentOperator 1 0.0226802
+ElevenTest.MoveAssignmentOperator 1 0.0225949
+ElevenTest.ComparisonOperators 1 0.0228096
+ElevenTest.SubtractionUnderflow 1 0.0223718
+---

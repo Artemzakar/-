@@ -1,0 +1,211 @@
+Start testing: Oct 04 22:09 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/8 Testing: ElevenTest.DefaultConstructor
+1/8 Test: ElevenTest.DefaultConstructor
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.DefaultConstructor" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.DefaultConstructor" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.DefaultConstructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.DefaultConstructor
+[       OK ] ElevenTest.DefaultConstructor (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.DefaultConstructor" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.DefaultConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: ElevenTest.ConstructorFromString
+2/8 Test: ElevenTest.ConstructorFromString
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.ConstructorFromString" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.ConstructorFromString" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.ConstructorFromString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.ConstructorFromString
+[       OK ] ElevenTest.ConstructorFromString (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.ConstructorFromString" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ConstructorFromString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: ElevenTest.Addition
+3/8 Test: ElevenTest.Addition
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.Addition" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.Addition" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.Addition
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.Addition
+[       OK ] ElevenTest.Addition (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.Addition" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Addition" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: ElevenTest.Subtraction
+4/8 Test: ElevenTest.Subtraction
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.Subtraction" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.Subtraction" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.Subtraction
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.Subtraction
+[       OK ] ElevenTest.Subtraction (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.Subtraction" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.Subtraction" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: ElevenTest.AssignmentOperator
+5/8 Test: ElevenTest.AssignmentOperator
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.AssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.AssignmentOperator" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.AssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.AssignmentOperator
+[       OK ] ElevenTest.AssignmentOperator (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.AssignmentOperator" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.AssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: ElevenTest.MoveAssignmentOperator
+6/8 Test: ElevenTest.MoveAssignmentOperator
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.MoveAssignmentOperator" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.MoveAssignmentOperator" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.MoveAssignmentOperator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.MoveAssignmentOperator
+[       OK ] ElevenTest.MoveAssignmentOperator (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.MoveAssignmentOperator" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.MoveAssignmentOperator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: ElevenTest.ComparisonOperators
+7/8 Test: ElevenTest.ComparisonOperators
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.ComparisonOperators" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.ComparisonOperators" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.ComparisonOperators
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.ComparisonOperators
+[       OK ] ElevenTest.ComparisonOperators (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.ComparisonOperators" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.ComparisonOperators" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: ElevenTest.SubtractionUnderflow
+8/8 Test: ElevenTest.SubtractionUnderflow
+Command: "C:/Users/artem/Downloads/OOP/lab2/build/Debug/lab2_tests.exe" "--gtest_filter=ElevenTest.SubtractionUnderflow" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab2/build
+"ElevenTest.SubtractionUnderflow" start time: Oct 04 22:09 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = ElevenTest.SubtractionUnderflow
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from ElevenTest
+[ RUN      ] ElevenTest.SubtractionUnderflow
+[       OK ] ElevenTest.SubtractionUnderflow (0 ms)
+[----------] 1 test from ElevenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"ElevenTest.SubtractionUnderflow" end time: Oct 04 22:09 RTZ 2 (çèìà)
+"ElevenTest.SubtractionUnderflow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 04 22:09 RTZ 2 (çèìà)
