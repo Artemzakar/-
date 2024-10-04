@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lab2_solution.dir\\Debug\\Eleven.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab2\\build\\Debug\\lab2_solution.pdb",
+                "lab2_solution.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}
