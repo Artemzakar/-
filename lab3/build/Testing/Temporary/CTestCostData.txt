@@ -1,13 +1,13 @@
-TriangleTest.AreaTest 1 0.0249266
-TriangleTest.CenterTest 1 0.0239901
-TriangleTest.OutputTest 1 0.025563
-SquareTest.AreaTest 1 0.0232816
-SquareTest.CenterTest 1 0.0228696
-SquareTest.OutputTest 1 0.0238018
-RectangleTest.AreaTest 1 0.02292
-RectangleTest.CenterTest 1 0.0231804
-RectangleTest.OutputTest 1 0.0225918
-FigureArrayTest.TotalAreaTest 1 0.0228262
-FigureArrayTest.RemoveFigureTest 1 0.0233159
-FigureArrayTest.PrintFiguresTest 1 0.0232789
+TriangleTest.AreaTest 1 0.0252335
+TriangleTest.CenterTest 1 0.0235329
+TriangleTest.OutputTest 1 0.0244507
+SquareTest.AreaTest 1 0.0245866
+SquareTest.CenterTest 1 0.0243989
+SquareTest.OutputTest 1 0.0235268
+RectangleTest.AreaTest 1 0.0230086
+RectangleTest.CenterTest 1 0.0228108
+RectangleTest.OutputTest 1 0.0240988
+FigureArrayTest.TotalAreaTest 1 0.0238695
+FigureArrayTest.RemoveFigureTest 1 0.0234422
+FigureArrayTest.PrintFiguresTest 1 0.0239179
 ---
