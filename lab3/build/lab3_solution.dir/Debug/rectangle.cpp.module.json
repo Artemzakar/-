@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lab3_solution.dir\\Debug\\Rectangle.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab3\\build\\Debug\\lab3_solution.pdb",
+                "lab3_solution.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

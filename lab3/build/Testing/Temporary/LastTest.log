@@ -1,0 +1,327 @@
+Start testing: Oct 19 16:06 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/12 Testing: TriangleTest.AreaTest
+1/12 Test: TriangleTest.AreaTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=TriangleTest.AreaTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"TriangleTest.AreaTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TriangleTest.AreaTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTest
+[ RUN      ] TriangleTest.AreaTest
+[       OK ] TriangleTest.AreaTest (0 ms)
+[----------] 1 test from TriangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTest.AreaTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"TriangleTest.AreaTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/12 Testing: TriangleTest.CenterTest
+2/12 Test: TriangleTest.CenterTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=TriangleTest.CenterTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"TriangleTest.CenterTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TriangleTest.CenterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTest
+[ RUN      ] TriangleTest.CenterTest
+[       OK ] TriangleTest.CenterTest (0 ms)
+[----------] 1 test from TriangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTest.CenterTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"TriangleTest.CenterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/12 Testing: TriangleTest.OutputTest
+3/12 Test: TriangleTest.OutputTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=TriangleTest.OutputTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"TriangleTest.OutputTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = TriangleTest.OutputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TriangleTest
+[ RUN      ] TriangleTest.OutputTest
+[       OK ] TriangleTest.OutputTest (0 ms)
+[----------] 1 test from TriangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"TriangleTest.OutputTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"TriangleTest.OutputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/12 Testing: SquareTest.AreaTest
+4/12 Test: SquareTest.AreaTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=SquareTest.AreaTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"SquareTest.AreaTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SquareTest.AreaTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SquareTest
+[ RUN      ] SquareTest.AreaTest
+[       OK ] SquareTest.AreaTest (0 ms)
+[----------] 1 test from SquareTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SquareTest.AreaTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"SquareTest.AreaTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/12 Testing: SquareTest.CenterTest
+5/12 Test: SquareTest.CenterTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=SquareTest.CenterTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"SquareTest.CenterTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SquareTest.CenterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SquareTest
+[ RUN      ] SquareTest.CenterTest
+[       OK ] SquareTest.CenterTest (0 ms)
+[----------] 1 test from SquareTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SquareTest.CenterTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"SquareTest.CenterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/12 Testing: SquareTest.OutputTest
+6/12 Test: SquareTest.OutputTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=SquareTest.OutputTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"SquareTest.OutputTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = SquareTest.OutputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from SquareTest
+[ RUN      ] SquareTest.OutputTest
+[       OK ] SquareTest.OutputTest (0 ms)
+[----------] 1 test from SquareTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"SquareTest.OutputTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"SquareTest.OutputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/12 Testing: RectangleTest.AreaTest
+7/12 Test: RectangleTest.AreaTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=RectangleTest.AreaTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"RectangleTest.AreaTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RectangleTest.AreaTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangleTest
+[ RUN      ] RectangleTest.AreaTest
+[       OK ] RectangleTest.AreaTest (0 ms)
+[----------] 1 test from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RectangleTest.AreaTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"RectangleTest.AreaTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/12 Testing: RectangleTest.CenterTest
+8/12 Test: RectangleTest.CenterTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=RectangleTest.CenterTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"RectangleTest.CenterTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RectangleTest.CenterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangleTest
+[ RUN      ] RectangleTest.CenterTest
+[       OK ] RectangleTest.CenterTest (0 ms)
+[----------] 1 test from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RectangleTest.CenterTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"RectangleTest.CenterTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/12 Testing: RectangleTest.OutputTest
+9/12 Test: RectangleTest.OutputTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=RectangleTest.OutputTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"RectangleTest.OutputTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = RectangleTest.OutputTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RectangleTest
+[ RUN      ] RectangleTest.OutputTest
+[       OK ] RectangleTest.OutputTest (0 ms)
+[----------] 1 test from RectangleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"RectangleTest.OutputTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"RectangleTest.OutputTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/12 Testing: FigureArrayTest.TotalAreaTest
+10/12 Test: FigureArrayTest.TotalAreaTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.TotalAreaTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"FigureArrayTest.TotalAreaTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TotalAreaTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TotalAreaTest
+[       OK ] FigureArrayTest.TotalAreaTest (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TotalAreaTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"FigureArrayTest.TotalAreaTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/12 Testing: FigureArrayTest.RemoveFigureTest
+11/12 Test: FigureArrayTest.RemoveFigureTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.RemoveFigureTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"FigureArrayTest.RemoveFigureTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.RemoveFigureTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.RemoveFigureTest
+[       OK ] FigureArrayTest.RemoveFigureTest (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.RemoveFigureTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"FigureArrayTest.RemoveFigureTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/12 Testing: FigureArrayTest.PrintFiguresTest
+12/12 Test: FigureArrayTest.PrintFiguresTest
+Command: "C:/Users/artem/Downloads/OOP/lab3/build/Debug/lab3_tests.exe" "--gtest_filter=FigureArrayTest.PrintFiguresTest" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab3/build
+"FigureArrayTest.PrintFiguresTest" start time: Oct 19 16:06 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab3\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.PrintFiguresTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.PrintFiguresTest
+[       OK ] FigureArrayTest.PrintFiguresTest (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.PrintFiguresTest" end time: Oct 19 16:06 RTZ 2 (çèìà)
+"FigureArrayTest.PrintFiguresTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 19 16:06 RTZ 2 (çèìà)

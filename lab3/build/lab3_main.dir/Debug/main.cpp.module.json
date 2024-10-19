@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lab3_main.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab3\\build\\lab3_main.dir\\Debug\\vc143.pdb",
+                "lab3_main.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}
