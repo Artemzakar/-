@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "lab4_main.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab4\\build\\lab4_main.dir\\Debug\\vc143.pdb",
+                "lab4_main.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

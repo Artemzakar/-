@@ -1,0 +1,12 @@
+FigureArrayTest.TestAppendAndGet 1 0.0247505
+FigureArrayTest.TestRemove 1 0.025535
+FigureArrayTest.TestGetTotalArea 1 0.0265454
+FigureArrayTest.TestSet 1 0.0247153
+FigureArrayTest.TestOutOfRangeException 1 0.0255617
+FigureArrayTest.TestResize 1 0.0243383
+FigureArrayTest.TestPrintCoordinates 1 0.0240718
+FigureArrayTest.TestPointerHandling 1 0.025223
+FigureArrayTest.TestSquareArray 1 0.0250111
+FigureArrayTest.TestRectangleArray 1 0.0246201
+FigureArrayTest.TestTriangleArray 1 0.0249339
+---

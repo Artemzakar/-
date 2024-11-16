@@ -1,0 +1,300 @@
+Start testing: Nov 16 21:02 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/11 Testing: FigureArrayTest.TestAppendAndGet
+1/11 Test: FigureArrayTest.TestAppendAndGet
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestAppendAndGet" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestAppendAndGet" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestAppendAndGet
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestAppendAndGet
+[       OK ] FigureArrayTest.TestAppendAndGet (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestAppendAndGet" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestAppendAndGet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/11 Testing: FigureArrayTest.TestRemove
+2/11 Test: FigureArrayTest.TestRemove
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestRemove" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestRemove" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestRemove
+[       OK ] FigureArrayTest.TestRemove (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestRemove" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestRemove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/11 Testing: FigureArrayTest.TestGetTotalArea
+3/11 Test: FigureArrayTest.TestGetTotalArea
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestGetTotalArea" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestGetTotalArea" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestGetTotalArea
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestGetTotalArea
+[       OK ] FigureArrayTest.TestGetTotalArea (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestGetTotalArea" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestGetTotalArea" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/11 Testing: FigureArrayTest.TestSet
+4/11 Test: FigureArrayTest.TestSet
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestSet" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestSet" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestSet
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestSet
+[       OK ] FigureArrayTest.TestSet (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestSet" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestSet" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/11 Testing: FigureArrayTest.TestOutOfRangeException
+5/11 Test: FigureArrayTest.TestOutOfRangeException
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestOutOfRangeException" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestOutOfRangeException" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestOutOfRangeException
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestOutOfRangeException
+[       OK ] FigureArrayTest.TestOutOfRangeException (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestOutOfRangeException" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestOutOfRangeException" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/11 Testing: FigureArrayTest.TestResize
+6/11 Test: FigureArrayTest.TestResize
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestResize" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestResize" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestResize
+[       OK ] FigureArrayTest.TestResize (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestResize" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestResize" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/11 Testing: FigureArrayTest.TestPrintCoordinates
+7/11 Test: FigureArrayTest.TestPrintCoordinates
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestPrintCoordinates" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestPrintCoordinates" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestPrintCoordinates
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestPrintCoordinates
+[       OK ] FigureArrayTest.TestPrintCoordinates (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestPrintCoordinates" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestPrintCoordinates" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/11 Testing: FigureArrayTest.TestPointerHandling
+8/11 Test: FigureArrayTest.TestPointerHandling
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestPointerHandling" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestPointerHandling" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestPointerHandling
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestPointerHandling
+[       OK ] FigureArrayTest.TestPointerHandling (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestPointerHandling" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestPointerHandling" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/11 Testing: FigureArrayTest.TestSquareArray
+9/11 Test: FigureArrayTest.TestSquareArray
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestSquareArray" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestSquareArray" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestSquareArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestSquareArray
+[       OK ] FigureArrayTest.TestSquareArray (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestSquareArray" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestSquareArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/11 Testing: FigureArrayTest.TestRectangleArray
+10/11 Test: FigureArrayTest.TestRectangleArray
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestRectangleArray" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestRectangleArray" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestRectangleArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestRectangleArray
+[       OK ] FigureArrayTest.TestRectangleArray (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestRectangleArray" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestRectangleArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/11 Testing: FigureArrayTest.TestTriangleArray
+11/11 Test: FigureArrayTest.TestTriangleArray
+Command: "C:/Users/artem/Downloads/OOP/lab4/build/Debug/lab4_tests.exe" "--gtest_filter=FigureArrayTest.TestTriangleArray" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab4/build
+"FigureArrayTest.TestTriangleArray" start time: Nov 16 21:02 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab4\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = FigureArrayTest.TestTriangleArray
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from FigureArrayTest
+[ RUN      ] FigureArrayTest.TestTriangleArray
+[       OK ] FigureArrayTest.TestTriangleArray (0 ms)
+[----------] 1 test from FigureArrayTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"FigureArrayTest.TestTriangleArray" end time: Nov 16 21:02 RTZ 2 (çèìà)
+"FigureArrayTest.TestTriangleArray" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 21:02 RTZ 2 (çèìà)
