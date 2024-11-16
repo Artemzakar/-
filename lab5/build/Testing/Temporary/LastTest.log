@@ -1,0 +1,273 @@
+Start testing: Nov 16 21:22 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/10 Testing: BidirectionalListTests.EmptyList_SizeIsZero
+1/10 Test: BidirectionalListTests.EmptyList_SizeIsZero
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.EmptyList_SizeIsZero" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.EmptyList_SizeIsZero" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.EmptyList_SizeIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.EmptyList_SizeIsZero
+[       OK ] BidirectionalListTests.EmptyList_SizeIsZero (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.EmptyList_SizeIsZero" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.EmptyList_SizeIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: BidirectionalListTests.PushBack_Integers
+2/10 Test: BidirectionalListTests.PushBack_Integers
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.PushBack_Integers" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.PushBack_Integers" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.PushBack_Integers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.PushBack_Integers
+[       OK ] BidirectionalListTests.PushBack_Integers (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.PushBack_Integers" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.PushBack_Integers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: BidirectionalListTests.PushBack_ComplexType
+3/10 Test: BidirectionalListTests.PushBack_ComplexType
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.PushBack_ComplexType" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.PushBack_ComplexType" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.PushBack_ComplexType
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.PushBack_ComplexType
+[       OK ] BidirectionalListTests.PushBack_ComplexType (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.PushBack_ComplexType" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.PushBack_ComplexType" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: BidirectionalListTests.Clear_ListIsEmptyAfterClear
+4/10 Test: BidirectionalListTests.Clear_ListIsEmptyAfterClear
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.Clear_ListIsEmptyAfterClear" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.Clear_ListIsEmptyAfterClear" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.Clear_ListIsEmptyAfterClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.Clear_ListIsEmptyAfterClear
+[       OK ] BidirectionalListTests.Clear_ListIsEmptyAfterClear (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.Clear_ListIsEmptyAfterClear" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.Clear_ListIsEmptyAfterClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: BidirectionalListTests.Iterator_Traversal
+5/10 Test: BidirectionalListTests.Iterator_Traversal
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.Iterator_Traversal" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.Iterator_Traversal" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.Iterator_Traversal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.Iterator_Traversal
+[       OK ] BidirectionalListTests.Iterator_Traversal (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.Iterator_Traversal" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.Iterator_Traversal" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: BidirectionalListTests.Iterator_EmptyList
+6/10 Test: BidirectionalListTests.Iterator_EmptyList
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.Iterator_EmptyList" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.Iterator_EmptyList" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.Iterator_EmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.Iterator_EmptyList
+[       OK ] BidirectionalListTests.Iterator_EmptyList (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.Iterator_EmptyList" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.Iterator_EmptyList" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: BidirectionalListTests.StdAlgorithms_Find
+7/10 Test: BidirectionalListTests.StdAlgorithms_Find
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.StdAlgorithms_Find" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.StdAlgorithms_Find" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.StdAlgorithms_Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.StdAlgorithms_Find
+[       OK ] BidirectionalListTests.StdAlgorithms_Find (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.StdAlgorithms_Find" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.StdAlgorithms_Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: BidirectionalListTests.PolymorphicAllocator_ReuseMemory
+8/10 Test: BidirectionalListTests.PolymorphicAllocator_ReuseMemory
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.PolymorphicAllocator_ReuseMemory" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.PolymorphicAllocator_ReuseMemory" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.PolymorphicAllocator_ReuseMemory
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.PolymorphicAllocator_ReuseMemory
+[       OK ] BidirectionalListTests.PolymorphicAllocator_ReuseMemory (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.PolymorphicAllocator_ReuseMemory" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.PolymorphicAllocator_ReuseMemory" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: BidirectionalListTests.CustomType_Equality
+9/10 Test: BidirectionalListTests.CustomType_Equality
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.CustomType_Equality" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.CustomType_Equality" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.CustomType_Equality
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.CustomType_Equality
+[       OK ] BidirectionalListTests.CustomType_Equality (0 ms)
+[----------] 1 test from BidirectionalListTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.CustomType_Equality" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.CustomType_Equality" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: BidirectionalListTests.StressTest_ManyElements
+10/10 Test: BidirectionalListTests.StressTest_ManyElements
+Command: "C:/Users/artem/Downloads/OOP/lab5/build/Debug/lab5_tests.exe" "--gtest_filter=BidirectionalListTests.StressTest_ManyElements" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/artem/Downloads/OOP/lab5/build
+"BidirectionalListTests.StressTest_ManyElements" start time: Nov 16 21:22 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\artem\Downloads\OOP\lab5\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = BidirectionalListTests.StressTest_ManyElements
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from BidirectionalListTests
+[ RUN      ] BidirectionalListTests.StressTest_ManyElements
+[       OK ] BidirectionalListTests.StressTest_ManyElements (22 ms)
+[----------] 1 test from BidirectionalListTests (22 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (22 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"BidirectionalListTests.StressTest_ManyElements" end time: Nov 16 21:22 RTZ 2 (çèìà)
+"BidirectionalListTests.StressTest_ManyElements" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 16 21:22 RTZ 2 (çèìà)

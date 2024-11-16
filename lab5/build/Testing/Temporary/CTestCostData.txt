@@ -1,0 +1,11 @@
+BidirectionalListTests.EmptyList_SizeIsZero 1 0.025992
+BidirectionalListTests.PushBack_Integers 1 0.0268923
+BidirectionalListTests.PushBack_ComplexType 1 0.0259516
+BidirectionalListTests.Clear_ListIsEmptyAfterClear 1 0.0248604
+BidirectionalListTests.Iterator_Traversal 1 0.0255534
+BidirectionalListTests.Iterator_EmptyList 1 0.0250548
+BidirectionalListTests.StdAlgorithms_Find 1 0.0240573
+BidirectionalListTests.PolymorphicAllocator_ReuseMemory 1 0.0248872
+BidirectionalListTests.CustomType_Equality 1 0.0243385
+BidirectionalListTests.StressTest_ManyElements 1 0.0481117
+---
