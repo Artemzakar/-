@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "balagur_solution.dir\\Debug\\observer.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab6\\build\\Debug\\balagur_solution.pdb",
+                "balagur_solution.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

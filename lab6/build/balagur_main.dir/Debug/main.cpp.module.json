@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "balagur_main.dir\\Debug\\main.obj",
+            "outputs": [
+                "C:\\Users\\artem\\Downloads\\OOP\\lab6\\build\\balagur_main.dir\\Debug\\vc143.pdb",
+                "balagur_main.dir\\Debug\\"
+            ],
+            "requires": []
+        }
+    ]
+}

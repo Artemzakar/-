@@ -1,0 +1,19 @@
+test_01.princess_constructor 1 0.0529081
+test_02.princess_constructor 1 0.0265864
+test_03.princess_constructor 1 0.0253584
+test_04.dragon_constructor 1 0.0249652
+test_05.dragon_constructor 1 0.0266383
+test_06.dragon_constructor 1 0.0254743
+test_07.knight_constructor 1 0.0252908
+test_08.knight_constructor 1 0.0264855
+test_09.knight_constructor 1 0.026032
+test_10.on_fight 1 0.023549
+test_11.on_fight 1 0.0261907
+test_12.on_fight 1 0.0244951
+test_13.on_fight 1 0.0246512
+test_14.on_fight 1 0.0258645
+test_15.on_fight 1 0.0252587
+test_16.on_fight 1 0.024569
+test_17.on_fight 1 0.0242086
+test_18.on_fight 1 0.0254407
+---
