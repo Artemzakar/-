@@ -1,97 +1,144 @@
+#include "include/npc.hpp"
+#include "include/squirrel.hpp"
+#include "include/orc.hpp"
+#include "include/druid.hpp"
 
-#include "include/npc.h"
-#include "include/dragon.h"
-#include "include/knight.h"
-#include "include/princess.h"
 
-bool success;
-int cnt_p{0};
-int cnt_d{0};
-int cnt_k{0};
 
-// Фабрика из файла
-std::shared_ptr<NPC>factory(std::ifstream &is)
+
+class TextObserver : public IFightObserver
+{
+private:
+    TextObserver(){};
+
+public:
+    static std::shared_ptr<IFightObserver> get()
+    {
+        static TextObserver instance;
+        return std::shared_ptr<IFightObserver>(&instance, [](IFightObserver *) {});
+    }
+
+    void on_fight(const std::shared_ptr<NPC> attacker, const std::shared_ptr<NPC> defender, bool win) override
+    {
+        if (win)
+        {
+            std::cout << std::endl
+                      << "Murder --------" << std::endl;
+            std::cout << "Killer: ";
+            attacker->print();
+            std::cout << "Victim: ";
+            defender->print();
+        }
+    }
+};
+
+
+
+
+class F_Observer : public IFightObserver
+{
+private:
+    std::ofstream file;
+
+    F_Observer()
+    {
+        file.open("log.txt");
+    }
+
+public:
+    static std::shared_ptr<IFightObserver> get()
+    {
+        static std::shared_ptr<IFightObserver> instance(new F_Observer());
+        return instance;
+    }
+
+    void on_fight(const std::shared_ptr<NPC> attacker, const std::shared_ptr<NPC> defender, bool win) override
+    {
+        if (win)
+        {
+            file << std::endl
+                 << "Murder --------" << std::endl;
+            file << "Killer: ";
+            attacker->print(file);
+            file << "Victim: ";
+            defender->print(file);
+        }
+    }
+};
+
+
+
+
+std::shared_ptr<NPC> factory(std::istream &is)
 {
     std::shared_ptr<NPC> result;
-    std::string name;
     int type{0};
     if (is >> type)
     {
         switch (type)
         {
-        case DragonType:
-            ++cnt_d;
-            name = "Dragon_№" + std::to_string(cnt_d);
-            result = std::make_shared<Dragon>(is,name);
+        case SquirrelType:
+            result = std::make_shared<Squirrel>(is);
             break;
-        case KnightType:
-            ++cnt_k;
-            name = "Knight_№" + std::to_string(cnt_k);
-            result = std::make_shared<Knight>(is,name);
+        case OrcType:
+            result = std::make_shared<Orc>(is);
             break;
-        case PrincessType:
-            ++cnt_p;
-            name = "Princess_№" + std::to_string(cnt_p);
-            result = std::make_shared<Princess>(is,name);
+        case DruidType:
+            result = std::make_shared<Druid>(is);
             break;
         }
     }
     else
         std::cerr << "unexpected NPC type:" << type << std::endl;
 
+    if (result)
+        result->subscribe(TextObserver::get());
+        result->subscribe(F_Observer::get());
+
     return result;
 }
 
-// Фабрика
 std::shared_ptr<NPC> factory(NpcType type, int x, int y)
 {
     std::shared_ptr<NPC> result;
-    std::string name;
-    switch (type){
-    case DragonType:
-        ++cnt_d;
-        name = "Dragon_№" + std::to_string(cnt_d);
-        result = std::make_shared<Dragon>(x, y,name);
+    switch (type)
+    {
+    case SquirrelType:
+        result = std::make_shared<Squirrel>(x, y);
         break;
-    case KnightType:
-        ++cnt_k;
-        name = "Knight_№" + std::to_string(cnt_k);
-        result = std::make_shared<Knight>(x, y,name);
+    case OrcType:
+        result = std::make_shared<Orc>(x, y);
         break;
-    case PrincessType:
-        ++cnt_p;
-        name = "Princess_№" + std::to_string(cnt_p);
-        result = std::make_shared<Princess>(x, y,name);
+    case DruidType:
+        result = std::make_shared<Druid>(x, y);
         break;
     default:
         break;
     }
+    if (result)
+        result->subscribe(TextObserver::get());
+        result->subscribe(F_Observer::get());
+
     return result;
 }
 
-// Сохранить в файл
-void file_save(const set_t &array, const std::string &filename)
+
+
+
+void save(const set_t &array, const std::string &filename)
 {
-    std::ofstream fs;
-    fs.open(filename);
-    if(fs.is_open()){
-        fs << array.size() << std::endl;
-        for (auto &n : array)
-            n->save(fs);
-        fs.close();
-    }
-    else{
-        std::cerr << "FILE NOT OPEN" << std::endl;
-    }
+    std::ofstream fs(filename);
+    fs << array.size() << std::endl;
+    for (auto &n : array)
+        n->save(fs);
+    fs.flush();
+    fs.close();
 }
 
-
-// Загрузить из файла
 set_t load(const std::string &filename)
 {
     set_t result;
-    std::ifstream is;
-    is.open(filename);
+    std::ifstream is(filename);
     if (is.good() && is.is_open())
     {
         int count;
@@ -105,7 +152,9 @@ set_t load(const std::string &filename)
     return result;
 }
 
-// Печать на экран
+
+
+
 std::ostream &operator<<(std::ostream &os, const set_t &array)
 {
     for (auto &n : array)
@@ -113,51 +162,11 @@ std::ostream &operator<<(std::ostream &os, const set_t &array)
     return os;
 }
 
-class Visitor{
-public:
-    virtual int visit(Princess* element) = 0;
-    virtual int visit(Dragon* element) = 0;
-    virtual int visit(Knight* element) = 0;
-};
 
-class ConcreteVisitor1 : public Visitor {
-public:
 
-    int visit(Princess* element) override {
-        //std::cout << "VisitPrincess\n";
-        return 1;
-    }
-    
-    int visit(Dragon* element) override {
-        //std::cout << "visitDragon\n";
-        return 2;
-    }
 
-    int visit(Knight* element) override {
-        //std::cout << "visitKinght\n";
-        return 3;
-    }
-};
-
-void Princess::accept(std::shared_ptr<NPC> attacker, Visitor& visitor) {
-    int res = 0;
-    if(dynamic_cast<Dragon*>(attacker.get()))
-        res = visitor.visit(dynamic_cast<Dragon*>(attacker.get()));
-    
-    if(res == 2) success = true;
-}
-
-void Dragon::accept(std::shared_ptr<NPC> attacker,Visitor& visitor) {
-    int res = 0;
-    if(dynamic_cast<Knight*>(attacker.get()))
-        res = visitor.visit(dynamic_cast<Knight*>(attacker.get()));
-    
-    if(res == 3) success = true;
-}
-
-void Knight::accept(std::shared_ptr<NPC> attacker,Visitor& visitor) {}
-
-set_t fight(const set_t &array, size_t distance,Visitor& visitor)
+// Visitor
+set_t fight(const set_t &array, size_t distance)
 {
     set_t dead_list;
 
@@ -165,69 +174,54 @@ set_t fight(const set_t &array, size_t distance,Visitor& visitor)
         for (const auto &defender : array)
             if ((attacker != defender) && (attacker->is_close(defender, distance)))
             {
-                success = false;
-                defender->accept(attacker,visitor);
-                if (success){
-                    defender->notify(attacker.get(),true);
+                bool success{false};
+
+                success = defender->accept(attacker);
+                
+                if (success)
                     dead_list.insert(defender);
-                }
             }
 
     return dead_list;
 }
 
+
+
+
 int main()
 {
-    srand(time(NULL));
-    std::string START_FILENAME = "../npc.txt"; 
-    std::string LOG_FILENAME = "../log.txt";
-
     set_t array; // монстры
 
-    // Гененрируем начальное распределение монстров
+    // Генерируем начальное распределение монстров
     std::cout << "Generating ..." << std::endl;
-    for (size_t i = 0; i < 20; ++i)
-        array.insert(factory(NpcType(std::rand() % 3 + 1),std::rand() % 500,std::rand() % 500));
-    
-    std::cout << "Saving ..." << std::endl;
-    file_save(array, START_FILENAME);
+    for (size_t i = 0; i < 40; ++i)
+        array.insert(factory(NpcType(std::rand() % 3 + 1),
+                             std::rand() % 500,
+                             std::rand() % 500)); // х и у до 500
 
-    cnt_d = 0;
-    cnt_k = 0;
-    cnt_p = 0;
+    std::cout << "Saving ... " << std::endl;
+    save(array, "npc.txt");
 
-    std::cout << "Loading ..." << std::endl;
-    array = load(START_FILENAME);
+    std::cout << "Loading ... " << std::endl;
+    array = load("npc.txt");
 
-    ConsoleObserver consObserv;
-    std::shared_ptr<ConsoleObserver> ob = std::make_shared<ConsoleObserver>(consObserv);
+    std::cout << "Starting position: " << array << std::endl;
 
-    FileObserver fileObserv(LOG_FILENAME);
-    std::shared_ptr<FileObserver> fb = std::make_shared<FileObserver>(fileObserv);
-
-    for(auto& elem: array){
-        elem->attach(ob);
-        elem->attach(fb);
-    }
-
-    ConcreteVisitor1 visitor;
-
-    std::cout << "Fighting ..." << std::endl << array;
-
-    for (size_t distance = 20; (distance <= 500) && !array.empty(); distance += 50)
-    {
-        auto dead_list = fight(array, distance,visitor);
-        for (auto &d : dead_list)
+    std::cout << "Fighting ... " << std::endl;
+    for (size_t distance = 20; (distance <= 100) && !array.empty(); distance += 10){
+        auto dead_list = fight(array, distance);
+        for (auto &d : dead_list){
             array.erase(d);
-        
-        std::cout << std::endl <<  "========== Fight stats ==========" << std::endl
+        }
+
+        std::cout << std::endl << "Fight stats ----------" << std::endl
                   << "distance: " << distance << std::endl
                   << "killed: " << dead_list.size() << std::endl
                   << std::endl << std::endl;
-
+        
     }
 
-    std::cout << std::endl << "Survivors:" << array;
+    std::cout << "Survivors: " << std::endl << array;
 
     return 0;
 }

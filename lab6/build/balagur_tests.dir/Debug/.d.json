@@ -168,16 +168,15 @@
             "c:\\users\\artem\\downloads\\oop\\lab6\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest-typed-test.h",
             "c:\\users\\artem\\downloads\\oop\\lab6\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_pred_impl.h",
             "c:\\users\\artem\\downloads\\oop\\lab6\\build\\_deps\\googletest-src\\googletest\\include\\gtest\\gtest_prod.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\observer.h",
-            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\fstream",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.h",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\orc.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.hpp",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\random",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\__msvc_int128.hpp",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\algorithm",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\fstream",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\princess.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\dragon.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\knight.h"
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\squirrel.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\druid.hpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

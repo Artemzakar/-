@@ -4,7 +4,7 @@
         "Source": "c:\\users\\artem\\downloads\\oop\\lab6\\main.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.h",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.hpp",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vcruntime.h",
@@ -126,10 +126,9 @@
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xtree",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xnode_handle.h",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\observer.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\dragon.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\knight.h",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\princess.h"
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\squirrel.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\orc.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\druid.hpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

@@ -280,16 +280,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\dragon.cpp" />
-    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\knight.cpp" />
+    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\druid.cpp" />
     <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\npc.cpp" />
-    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\observer.cpp" />
-    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\princess.cpp" />
-    <ClInclude Include="C:\Users\artem\Downloads\OOP\lab6\include\dragon.h" />
-    <ClInclude Include="C:\Users\artem\Downloads\OOP\lab6\include\knight.h" />
-    <ClInclude Include="C:\Users\artem\Downloads\OOP\lab6\include\npc.h" />
-    <ClInclude Include="C:\Users\artem\Downloads\OOP\lab6\include\observer.h" />
-    <ClInclude Include="C:\Users\artem\Downloads\OOP\lab6\include\princess.h" />
+    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\orc.cpp" />
+    <ClCompile Include="C:\Users\artem\Downloads\OOP\lab6\src\squirrel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\artem\Downloads\OOP\lab6\build\ZERO_CHECK.vcxproj">

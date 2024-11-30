@@ -1,0 +1,76 @@
+
+Murder --------
+Killer: Orc{x:340, y:256}
+Victim: Druid{x:329, y:270}
+
+Murder --------
+Killer: Orc{x:369, y:38}
+Victim: Druid{x:359, y:37}
+
+Murder --------
+Killer: Orc{x:327, y:281}
+Victim: Druid{x:329, y:270}
+
+Murder --------
+Killer: Orc{x:37, y:323}
+Victim: Druid{x:35, y:316}
+
+Murder --------
+Killer: Orc{x:340, y:256}
+Victim: Druid{x:368, y:253}
+
+Murder --------
+Killer: Orc{x:369, y:38}
+Victim: Druid{x:333, y:41}
+
+Murder --------
+Killer: Druid{x:226, y:447}
+Victim: Squirrel{x:203, y:394}
+
+Murder --------
+Killer: Orc{x:229, y:390}
+Victim: Druid{x:226, y:447}
+
+Murder --------
+Killer: Druid{x:386, y:173}
+Victim: Squirrel{x:446, y:148}
+
+Murder --------
+Killer: Orc{x:431, y:376}
+Victim: Druid{x:439, y:444}
+
+Murder --------
+Killer: Druid{x:386, y:173}
+Victim: Squirrel{x:402, y:104}
+
+Murder --------
+Killer: Orc{x:229, y:390}
+Victim: Druid{x:205, y:464}
+
+Murder --------
+Killer: Orc{x:431, y:376}
+Victim: Druid{x:477, y:430}
+
+Murder --------
+Killer: Orc{x:424, y:245}
+Victim: Druid{x:386, y:173}
+
+Murder --------
+Killer: Orc{x:299, y:167}
+Victim: Druid{x:386, y:173}
+
+Murder --------
+Killer: Druid{x:218, y:216}
+Victim: Squirrel{x:158, y:139}
+
+Murder --------
+Killer: Druid{x:218, y:216}
+Victim: Squirrel{x:162, y:144}
+
+Murder --------
+Killer: Orc{x:141, y:164}
+Victim: Druid{x:218, y:216}
+
+Murder --------
+Killer: Orc{x:299, y:167}
+Victim: Druid{x:218, y:216}

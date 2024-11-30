@@ -1,341 +1,135 @@
 #include <gtest/gtest.h>
-#include <memory>
-#include "../include/observer.h"
-#include "../include/npc.h"
-#include "../include/princess.h"
-#include "../include/dragon.h"
-#include "../include/knight.h"
+#include "../include/orc.hpp"
+#include "../include/squirrel.hpp"
+#include "../include/druid.hpp"
+#include "../include/npc.hpp"
 
-bool success;
 
-class Visitor{
-public:
-    virtual int visit(Princess* element) = 0;
-    virtual int visit(Dragon* element) = 0;
-    virtual int visit(Knight* element) = 0;
-};
-
-class ConcreteVisitor1 : public Visitor {
-public:
-
-    int visit(Princess* element) override {
-        //std::cout << "VisitPrincess\n";
-        return 1;
-    }
-    
-    int visit(Dragon* element) override {
-        //std::cout << "visitDragon\n";
-        return 2;
-    }
-
-    int visit(Knight* element) override {
-        //std::cout << "visitKinght\n";
-        return 3;
-    }
-};
-
-void Princess::accept(std::shared_ptr<NPC> attacker, Visitor& visitor) {
-    int res = 0;
-    if(dynamic_cast<Dragon*>(attacker.get()))
-        res = visitor.visit(dynamic_cast<Dragon*>(attacker.get()));
-    
-    if(res == 2) success = true;
+TEST(orc_test, 01) {
+    Orc orc(10, 10);
+    orc.print();
 }
 
-void Dragon::accept(std::shared_ptr<NPC> attacker,Visitor& visitor) {
-    int res = 0;
-    if(dynamic_cast<Knight*>(attacker.get()))
-        res = visitor.visit(dynamic_cast<Knight*>(attacker.get()));
-    
-    if(res == 3) success = true;
+TEST(orc_test, 02) {
+    Orc orc(10, 10);
+    std::cout << orc << std::endl;
 }
 
-void Knight::accept(std::shared_ptr<NPC> attacker,Visitor& visitor) {}
+TEST(orc_test, 03) {
+    std::shared_ptr<NPC> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<NPC> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<NPC> squirrel = std::make_shared<Squirrel>(100, 100);
 
-TEST(test_01, princess_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Princess_1"};
+    bool fight_with_druid = druid->accept(orc);
+    bool fight_with_squirrel = squirrel->accept(orc);
+    bool fight_with_orc = orc->accept(orc);
 
-    std::shared_ptr<NPC> a = std::make_shared<Princess>(x,y,name);
-
-
-    EXPECT_EQ(100,a->x);
+    ASSERT_TRUE(fight_with_druid);
+    ASSERT_FALSE(fight_with_squirrel);
+    ASSERT_FALSE(fight_with_orc);
 }
 
-TEST(test_02, princess_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Princess_1"};
+TEST(orc_test, 04) {
+    std::shared_ptr<Orc> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<Druid> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<Squirrel> squirrel = std::make_shared<Squirrel>(100, 100);
 
-    std::shared_ptr<NPC> a = std::make_shared<Princess>(x,y,name);
+    bool fight_with_druid = druid->fight(orc);
+    bool fight_with_squirrel = squirrel->fight(orc);
+    bool fight_with_orc = orc->fight(orc);
 
-
-    EXPECT_EQ(100,a->y);
+    ASSERT_FALSE(fight_with_druid);
+    ASSERT_FALSE(fight_with_squirrel);
+    ASSERT_FALSE(fight_with_orc);
 }
 
-TEST(test_03, princess_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Princess_1"};
-
-    std::shared_ptr<NPC> a = std::make_shared<Princess>(x,y,name);
 
 
-    EXPECT_EQ("Princess_1",a->name);
+
+TEST(druid_test, 01) {
+    Druid druid(10, 10);
+    druid.print();
 }
 
-TEST(test_04, dragon_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Dragon_1"};
-
-    std::shared_ptr<NPC> a = std::make_shared<Dragon>(x,y,name);
-
-
-    EXPECT_EQ(100,a->x);
+TEST(druid_test, 02) {
+    Druid druid(10, 10);
+    std::cout << druid << std::endl;
 }
 
-TEST(test_05, dragon_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Dragon_1"};
+TEST(druid_test, 03) {
+    std::shared_ptr<NPC> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<NPC> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<NPC> squirrel = std::make_shared<Squirrel>(100, 100);
 
-    std::shared_ptr<NPC> a = std::make_shared<Dragon>(x,y,name);
+    bool fight_with_druid = druid->accept(druid);
+    bool fight_with_squirrel = squirrel->accept(druid);
+    bool fight_with_orc = orc->accept(druid);
 
-
-    EXPECT_EQ(100,a->y);
+    ASSERT_FALSE(fight_with_druid);
+    ASSERT_TRUE(fight_with_squirrel);
+    ASSERT_FALSE(fight_with_orc);
 }
 
-TEST(test_06, dragon_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Dragon_1"};
+TEST(druid_test, 04) {
+    std::shared_ptr<Orc> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<Druid> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<Squirrel> squirrel = std::make_shared<Squirrel>(100, 100);
 
-    std::shared_ptr<NPC> a = std::make_shared<Dragon>(x,y,name);
+    bool fight_with_druid = druid->fight(druid);
+    bool fight_with_squirrel = squirrel->fight(druid);
+    bool fight_with_orc = orc->fight(druid);
 
-
-    EXPECT_EQ("Dragon_1",a->name);
+    ASSERT_FALSE(fight_with_druid);
+    ASSERT_FALSE(fight_with_squirrel);
+    ASSERT_TRUE(fight_with_orc);
 }
 
-TEST(test_07, knight_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Knight_1"};
-
-    std::shared_ptr<NPC> a = std::make_shared<Knight>(x,y,name);
 
 
-    EXPECT_EQ(100,a->x);
+
+TEST(squirrel_test, 01) {
+    Squirrel squirrel(10, 10);
+    squirrel.print();
 }
 
-TEST(test_08, knight_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Knight_1"};
+TEST(squirrel_test, 02) {
 
-    std::shared_ptr<NPC> a = std::make_shared<Knight>(x,y,name);
-
-
-    EXPECT_EQ(100,a->y);
+    Squirrel squirrel(10, 10);
+    std::cout << squirrel << std::endl;
 }
 
-TEST(test_09, knight_constructor){
-    int x{100};
-    int y{100};
-    std::string name{"Knight_1"};
+TEST(squirrel_test, 03) {
+    std::shared_ptr<NPC> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<NPC> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<NPC> squirrel = std::make_shared<Squirrel>(100, 100);
 
-    std::shared_ptr<NPC> a = std::make_shared<Knight>(x,y,name);
+    bool fight_with_druid = druid->accept(squirrel);
+    bool fight_with_squirrel = squirrel->accept(squirrel);
+    bool fight_with_orc = orc->accept(squirrel);
 
-
-    EXPECT_EQ("Knight_1",a->name);
+    ASSERT_FALSE(fight_with_druid);
+    ASSERT_FALSE(fight_with_squirrel);
+    ASSERT_FALSE(fight_with_orc);
 }
 
-TEST(test_10, on_fight){
+TEST(squirrel_test, 04) {
+    std::shared_ptr<Orc> orc = std::make_shared<Orc>(10, 10);
+    std::shared_ptr<Druid> druid = std::make_shared<Druid>(20, 30);
+    std::shared_ptr<Squirrel> squirrel = std::make_shared<Squirrel>(100, 100);
 
-    ConcreteVisitor1 visitor;
+    bool fight_with_druid = druid->fight(squirrel);
+    bool fight_with_squirrel = squirrel->fight(squirrel);
+    bool fight_with_orc = orc->fight(squirrel);
 
-    int x1{100};
-    int y1{100};
-    std::string name1{"Knight_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Knight>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Dragon_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Dragon>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_TRUE(success);
+    ASSERT_TRUE(fight_with_druid);
+    ASSERT_FALSE(fight_with_squirrel);
+    ASSERT_FALSE(fight_with_orc);
 }
 
-TEST(test_11, on_fight){
 
-    ConcreteVisitor1 visitor;
 
-    int x1{100};
-    int y1{100};
-    std::string name1{"Knight_1"};
 
-    std::shared_ptr<NPC> attacker = std::make_shared<Knight>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Princess_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Princess>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_12, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Knight_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Knight>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Knight_2"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Knight>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_13, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Dragon_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Dragon>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Knight_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Knight>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_14, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Dragon_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Dragon>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Princess_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Princess>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_TRUE(success);
-}
-
-TEST(test_15, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Dragon_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Dragon>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Dragon_2"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Dragon>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_16, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Princess_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Princess>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Princess_2"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Princess>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_17, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Princess_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Princess>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Dragon_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Dragon>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
-}
-
-TEST(test_18, on_fight){
-
-    ConcreteVisitor1 visitor;
-
-    int x1{100};
-    int y1{100};
-    std::string name1{"Princess_1"};
-
-    std::shared_ptr<NPC> attacker = std::make_shared<Princess>(x1,y1,name1);
-
-    int x2{101};
-    int y2{101};
-    std::string name2{"Knight_1"};
-
-    std::shared_ptr<NPC> defender = std::make_shared<Knight>(x2,y2,name2);
-
-    success = false;
-    defender->accept(attacker,visitor);
-    EXPECT_FALSE(success);
+int main(int argc, char** argv){
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

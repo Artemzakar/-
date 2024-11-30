@@ -1,10 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\artem\\downloads\\oop\\lab6\\src\\observer.cpp",
+        "Source": "c:\\users\\artem\\downloads\\oop\\lab6\\src\\squirrel.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\observer.h",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\squirrel.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.hpp",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\iostream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\yvals_core.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vcruntime.h",
@@ -115,18 +116,19 @@
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\ctype.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\clocale",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\locale.h",
-            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\fstream",
-            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\npc.h",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\string",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\random",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\__msvc_int128.hpp",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\algorithm",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\vector",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xbit_ops.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\fstream",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\set",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xtree",
             "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xnode_handle.h",
-            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h"
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\ucrt\\math.h",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\orc.hpp",
+            "c:\\users\\artem\\downloads\\oop\\lab6\\include\\druid.hpp"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
