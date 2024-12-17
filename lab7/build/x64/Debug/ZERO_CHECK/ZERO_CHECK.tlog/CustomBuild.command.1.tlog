@@ -1,0 +1,10 @@
+^C:\USERS\ARTEM\DOWNLOADS\OOP\LAB7\BUILD\CMAKEFILES\D3E8F32EF88A9FDE826E2BEE3A58CAC4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/artem/Downloads/OOP/lab7 -BC:/Users/artem/Downloads/OOP/lab7/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/artem/Downloads/OOP/lab7/build/BalagurFate3.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

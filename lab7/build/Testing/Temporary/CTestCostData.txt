@@ -1,0 +1,25 @@
+orc_test.01 1 0.0258096
+orc_test.02 1 0.0266712
+orc_test.03 1 0.0253403
+orc_test.04 1 0.0242151
+orc_test.05 1 0.0239319
+orc_test.06 1 0.0226798
+orc_test.07 1 0.0230063
+orc_test.08 1 0.0243768
+druid_test.01 1 0.0242591
+druid_test.02 1 0.0247823
+druid_test.03 1 0.0250288
+druid_test.04 1 0.0234024
+druid_test.05 1 0.0253362
+druid_test.06 1 0.0243671
+druid_test.07 1 0.0235486
+druid_test.08 1 0.0236249
+squirrel_test.01 1 0.0258665
+squirrel_test.02 1 0.02355
+squirrel_test.03 1 0.0231686
+squirrel_test.04 1 0.0244345
+squirrel_test.05 1 0.0240767
+squirrel_test.06 1 0.0239985
+squirrel_test.07 1 0.0298334
+squirrel_test.08 1 0.0252313
+---

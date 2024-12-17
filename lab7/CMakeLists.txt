@@ -1,0 +1,42 @@
+cmake_minimum_required(VERSION 3.30.3)
+project(BalagurFate3)
+
+set(CMAKE_CXX_STANDARD 20)
+
+# Указываем директорию include
+include_directories(include)
+
+# Рекурсивно находим все файлы исходников и заголовков
+file(GLOB_RECURSE SOURCES "src/*.cpp")
+file(GLOB_RECURSE HEADERS "include/*.h")
+
+# Создаем библиотеку для проекта
+add_library(balagur_solution ${SOURCES} ${HEADERS})
+
+# Подключаем FetchContent для Google Test
+include(FetchContent)
+FetchContent_Declare(
+    googletest
+    URL https://github.com/google/googletest/archive/refs/tags/release-1.12.1.zip
+)
+FetchContent_MakeAvailable(googletest)
+
+# Находим тестовые файлы в папке test (если есть тесты)
+file(GLOB_RECURSE TEST_SOURCES "test/*.cpp")
+
+if(TEST_SOURCES) # Если есть тесты
+    # Создаем исполняемый файл для тестов
+    add_executable(balagur_tests ${TEST_SOURCES})
+    target_link_libraries(balagur_tests balagur_solution GTest::gtest_main)
+
+    # Используем GoogleTest для автоматического обнаружения тестов
+    include(GoogleTest)
+    gtest_discover_tests(balagur_tests)
+
+    # Включаем поддержку тестирования
+    enable_testing()
+endif()
+
+# Создаем основной исполняемый файл программы
+add_executable(balagur_main main.cpp)
+target_link_libraries(balagur_main balagur_solution)
